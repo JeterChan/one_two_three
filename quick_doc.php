@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<div class="container-fluid">Always 100% wide
+<div class="container-fluid">
     <nav class="navbar fixed-top navbar-dark" style="background-color: #2F4F4F;">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">醫二三</a>
