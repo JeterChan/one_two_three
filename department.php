@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="/page_css/department.css">
     </head>
 
-    </body>
+    <body>
         <!-- Navbar -->
         <div class="container-fluid">
             <nav class="navbar fixed-top navbar-dark" style="background-color: #2F4F4F;">
