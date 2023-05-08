@@ -19,7 +19,7 @@
     </div>
     </nav>
 </div>
-<br><br>
+<br><br><br>
 <div class="container">
 <h4 class="card-title">想好要看什麼科別了嗎？</h4><br>
 <a href = "department.php" button type="button" class="btn btn-outline-primary">想好了，點我找醫院</button></a>
