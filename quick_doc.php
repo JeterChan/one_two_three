@@ -22,6 +22,6 @@
 <br><br>
 <div class="container">
 <h4 class="card-title">想好要看什麼科別了嗎？</h4><br>
-<button type="button" class="btn btn-outline-primary">想好了，點我找醫院</button>
-<button type="button" class="btn btn-outline-primary">還沒，點我查看可能需要的科別</button>
+<a herf = "department.php" button type="button" class="btn btn-outline-primary">想好了，點我找醫院</button></a>
+<a herf = "choose_ill.php" button type="button" class="btn btn-outline-primary">還沒，點我查看可能需要的科別</button></a>
 </div>
