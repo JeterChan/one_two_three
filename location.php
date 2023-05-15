@@ -19,7 +19,7 @@
     <div class="container-fluid">
         <nav class="navbar fixed-top navbar-dark" style="background-color: #2F4F4F;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">醫二三</a>
+            <a class="navbar-brand" href="index.php">醫二三</a>
         </div>
         </nav>
     </div>
