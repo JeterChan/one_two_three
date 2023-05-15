@@ -10,7 +10,7 @@
 
 </head>
 <body>
-<div class="row">
+<div class="row ">
     <div class="container-fluid">
         <nav class="navbar fixed-top navbar-dark" style="background-color: #2F4F4F;">
         <div class="container-fluid">
@@ -38,23 +38,29 @@
 </div>
 
 <div class="container-sm">
-    <div class="row">
-        <div class="col justify-content-center">
+    <div class="row justify-content-center">
+        <div class="col-md-auto">
             <form action = "location.php" method = "post">
-                <input type='hidden' name='d_id' value="01000000000000000000000000">
-                <span><input type='submit' value='內科'></span>
+                <button type="submit"  class="btn btn-primary font-size" name='d_id' value="01000000000000000000000000"><span>內科</span></button>
+
+                <!-- <input type='hidden' name='d_id' value="01000000000000000000000000">
+                <span><input type='submit' value='內科'></span> -->
             </form>
         </div>
-        <div class="col justify-content-center">
+        <div class="col-md-auto">
             <form action = "location.php" method = "post">
-                <input type='hidden' name='d_id' value="10000000000000000000000000">
-                <span><input type='submit' value='家醫科'></span>
+                <button type="submit"  class="btn btn-primary font-size" name='d_id' value="10000000000000000000000000"><span>家醫科</span></button>
+
+                <!-- <input type='hidden' name='d_id' value="10000000000000000000000000">
+                <span><input type='submit' value='家醫科'></span> -->
             </form>
         </div>
-        <div class="col justify-content-center">
+        <div class="col-md-auto">
             <form action = "location.php" method = "post">
+                <button type="submit"  class="btn btn-primary font-size" name='d_id' value="00000000010000000000000000"><span>耳鼻喉科</span></button>
+<!-- 
                 <input type='hidden' name='d_id' value="00000000010000000000000000">
-                <span><input type='submit' value='耳鼻喉科'></span>
+                <span><input type='submit' value='耳鼻喉科'></span> -->
             </form>
         </div>
     </row>

@@ -39,34 +39,43 @@
 
 <div class="container-sm">
     <div class="row">
-        <div class="col justify-content-center">
+        <div class="col-md-auto">
             <form action = "location.php" method = "post">
-                <input type='hidden' name='d_id' value="01000000000000000000000000">
-                <span><input type='submit' value='內科'></span>
+                <button type="submit"  class="btn btn-primary font-size  btn-color" name='d_id' value="01000000000000000000000000" ><span>內科</span></button>
+                <!-- <input type='hidden' name='d_id' value="01000000000000000000000000">
+                <span><input type='submit' value='內科'></span> -->
             </form>
         </div>
-        <div class="col justify-content-center">
+        <div class="col-md-auto">
             <form action = "location.php" method = "post">
-                <input type='hidden' name='d_id' value="00000100000000000000000000">
-                <span><input type='submit' value='骨科'></span>
+                <button type="submit"  class="btn btn-primary font-size btn-color" name='d_id' value="00000100000000000000000000"><span>骨科</span></button>
+
+                <!-- <input type='hidden' name='d_id' value="00000100000000000000000000">
+                <span><input type='submit' value='骨科'></span> -->
             </form>
         </div>
-        <div class="col justify-content-center">
+        <div class="col-md-auto">
             <form action = "location.php" method = "post">
-                <input type='hidden' name='d_id' value="00001000000000000000000000">
-                <span><input type='submit' value='婦產科'></span>
+                <button type="submit"  class="btn btn-primary font-size btn-color" name='d_id' value="00001000000000000000000000"><span>婦產科</span></button>
+
+                <!-- <input type='hidden' name='d_id' value="00001000000000000000000000">
+                <span><input type='submit' value='婦產科'></span> -->
             </form>
         </div>
-        <div class="col justify-content-center">
+        <div class="col-md-auto">
             <form action = "location.php" method = "post">
-                <input type='hidden' name='d_id' value="00000000100000000000000000">
-                <span><input type='submit' value='泌尿科'></span>
+                <button type="submit"  class="btn btn-primary font-size btn-color" name='d_id' value="00000000100000000000000000"><span>泌尿科</span></button>
+
+                <!-- <input type='hidden' name='d_id' value="00000000100000000000000000">
+                <span><input type='submit' value='泌尿科'></span> -->
             </form>
         </div>
-        <div class="col justify-content-center">
+        <div class="col-md-auto">
             <form action = "location.php" method = "post">
-                <input type='hidden' name='d_id' value="00000000000001000000000000">
-                <span><input type='submit' value='復健科'></span>
+                <button type="submit"  class="btn btn-primary font-size btn-color" name='d_id' value="00000000000001000000000000">復健科</button>
+
+                <!-- <input type='hidden' name='d_id' value="00000000000001000000000000">
+                <span><input type='submit' value='復健科'></span> -->
             </form>
         </div>
     </row>

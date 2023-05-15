@@ -38,23 +38,29 @@
 </div>
 
 <div class="container-sm">
-    <div class="row">
-        <div class="col justify-content-center">
+    <div class="row justify-content-center">
+        <div class="col-md-auto">
             <form action = "location.php" method = "post">
-                <input type='hidden' name='d_id' value="01000000000000000000000000">
-                <span><input type='submit' value='內科'></span>
+                <button type="submit"  class="btn btn-primary font-size" name='d_id' value="01000000000000000000000000"><span>內科</span></button>
+
+                <!-- <input type='hidden' name='d_id' value="01000000000000000000000000">
+                <span><input type='submit' value='內科'></span> -->
             </form>
         </div>
-        <div class="col justify-content-center">
+        <div class="col-md-auto">
             <form action = "location.php" method = "post">
-                <input type='hidden' name='d_id' value="10000000000000000000000000">
-                <span><input type='submit' value='家醫科'></span>
+                <button type="submit"  class="btn btn-primary font-size" name='d_id' value="10000000000000000000000000"><span>家醫科</span></button>
+
+                <!-- <input type='hidden' name='d_id' value="10000000000000000000000000">
+                <span><input type='submit' value='家醫科'></span> -->
             </form>
         </div>
-        <div class="col justify-content-center">
+        <div class="col-md-auto">
             <form action = "location.php" method = "post">
-                <input type='hidden' name='d_id' value="00000000000000001000000000">
-                <span><input type='submit' value='放射腫瘤科'></span>
+                <button type="submit"  class="btn btn-primary font-size" name='d_id' value="00000000000000001000000000"><span>放射腫瘤科</span></button>
+
+                <!-- <input type='hidden' name='d_id' value="00000000000000001000000000">
+                <span><input type='submit' value='放射腫瘤科'></span> -->
             </form>
         </div>
     </row>
