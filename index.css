@@ -1,0 +1,38 @@
+.navbar-brand {
+    height: 70px;
+    position: relative;
+    font-size: 250%;
+    font-weight: normal;
+    font-family: PMingLiU , "Noto Sans CJK TC", "Microsoft JhengHei", serif;
+    letter-spacing: 0.5cm;
+}
+
+.btn1{
+    background-color:  #2F4F4F;
+    border: none;
+    font-size: 36px;
+    margin-left: 8cm;
+    height: 70px;
+}
+
+.btn1:hover{
+    background-color: #2F4F4F;
+}
+
+.btn2{
+    background-color:  #2F4F4F;
+    border: none;
+    font-size: 36px;
+    margin-left: 1cm;
+    height: 70px;
+}
+
+.btn2:hover{
+    background-color: #2F4F4F;
+}
+
+.display-3{
+    margin-top: 5cm;
+    margin-left: 11cm;
+    justify-content: center;
+}
