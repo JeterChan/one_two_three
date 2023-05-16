@@ -1,0 +1,46 @@
+.navbar-brand {
+    height: 70px;
+    position: relative;
+    font-size: 250%;
+    font-weight: normal;
+    font-family: PMingLiU , "Noto Sans CJK TC", "Microsoft JhengHei", serif;
+    letter-spacing: 0.5cm;
+}
+
+.content-box{
+    margin-top: 4cm;
+    text-align: center;
+    /* background-color: gray; */
+}
+
+.h4{
+    font-size: 200%;
+    font-weight: normal;
+}
+.container{
+    
+    /* 水平置中 */
+    justify-content: center; 
+    margin-top: 2cm;
+    /* margin-left: 6cm;  */
+    /* background-color: red; */
+    max-width: fit-content;
+}
+
+.container-lg{
+    margin-top: 4cm;
+}
+
+.row {
+    margin: 50px;
+}
+
+input[type=submit] {
+    font-size: x-large;
+    padding:13px 40px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
