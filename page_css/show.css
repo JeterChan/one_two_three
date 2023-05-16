@@ -38,3 +38,12 @@
     height: 5.5cm;
     width: 35cm;
 }
+
+.btn{
+    background-color: #2F4F4F;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #2F4F4F;
+}
