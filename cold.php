@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-<title>醫二三</title>
+<title>醫貳參</title>
 <meta charset="UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">        <!--到mobile裝置上仍可正常顯示,指定螢幕寬度為裝置寬度,畫面載入初始縮放比例 100% -->
@@ -14,7 +14,7 @@
     <div class="container-fluid">
         <nav class="navbar fixed-top navbar-dark" style="background-color: #2F4F4F;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.php">醫二三</a>
+            <a class="navbar-brand" href="index.php">醫貳參</a>
         </div>
         </nav>
     </div>
